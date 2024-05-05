@@ -3,18 +3,18 @@ class Pessoa {
     String nome;
     String apelido;
     int nrBI;
-    String nacionalidade;
+    String paisMorada;
 
 
     public Pessoa() {
     }
 
 
-    public Pessoa(String nome, String apelido, int nrBi, String nacionalidade) {
+    public Pessoa(String nome, String apelido, int nrBi, String paisMorada) {
         this.nome = nome;
         this.apelido = apelido;
         this.nrBI = nrBi;
-        this.nacionalidade = nacionalidade;
+        this.paisMorada = paisMorada;
     }
 
 }

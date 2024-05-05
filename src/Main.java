@@ -6,12 +6,12 @@ public class Main {
 
     public static final int TAMANHO = 1000000;
 
-    static Pessoa[] arrayGrandeDePessoas() {
+    static Pessoa[] f01() {
         return Gerador.criarArrayPessoas(TAMANHO);
     }
 
 
-    static ArrayList<Pessoa> meusAmigos() {
+    static ArrayList<Pessoa> f02() {
         ArrayList<Pessoa> result = new ArrayList<>();
 
         for (int i = 0; i < TAMANHO; i++) {
@@ -21,7 +21,7 @@ public class Main {
     }
 
 
-    static LinkedList<Pessoa> meusColegas() {
+    static LinkedList<Pessoa> f03() {
         LinkedList<Pessoa> result = new LinkedList<>();
 
         for (int i = 0; i < TAMANHO; i++) {
@@ -32,7 +32,7 @@ public class Main {
     }
 
 
-    static long[] medirTemposIntroducao() {
+    static long[] f04() {
 
         // implementação aqui
 
@@ -40,7 +40,7 @@ public class Main {
     }
 
 
-    static long[] medirTemposIntroducaoNoInicio() {
+    static long[] f05() {
 
         // implentação aqui
 
@@ -48,7 +48,7 @@ public class Main {
     }
 
 
-    static long[] medirTemposIntroducaoNoMeio() {
+    static long[] f06() {
 
         // implementação aqui
 
@@ -56,7 +56,7 @@ public class Main {
     }
 
 
-    static long[] medirTemposIntroducaoNoFim() {
+    static long[] f07() {
 
         // implentação aqui
 
